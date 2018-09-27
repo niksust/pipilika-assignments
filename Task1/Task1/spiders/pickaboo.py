@@ -3,7 +3,7 @@ import scrapy
 from Task1.items import Task1Item
 
 class PickabooSpider(scrapy.Spider):
-    name = "pickaboo"
+    name = "pickaboo_old"
     allowed_domains = ["pickaboo.com"]
     start_urls = ['https://www.pickaboo.com/']
 
